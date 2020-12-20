@@ -1,6 +1,6 @@
 import scala.annotation.tailrec
 
-object Day12 extends Day(12) with MainPart1 {
+object Day12 extends Day(12) {
 
   def run1() = {
     move(Position(0, 0), East, parsed).manhattanFromOrigin
